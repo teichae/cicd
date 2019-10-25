@@ -21,7 +21,7 @@ deploy:
     bucket: godo-word
     region: ap-northeast-2
     skip_cleanup: true
-    acl: public_read
+    local_dir: build/libs/
     wait-until-deployed: true
     on:
       repo: teichae/cicd
